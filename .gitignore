@@ -1,0 +1,10 @@
+# pas de fichiers *.o, etc
+*.o
+*.class
+*.pyc
+# mais main.o autorisé
+!main.o
+# tout un rep
+bin/
+# ignorer test.txt uniquement à la racine
+/test.txt
